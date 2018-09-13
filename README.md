@@ -1,1 +1,9 @@
-# whacked-blocks-2018
+# Whacked Blocks Hackathon 2018
+
+## General info
+
+## Timeline
+
+## Mentors & Judges
+
+## Challenges
