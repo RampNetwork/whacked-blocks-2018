@@ -17,3 +17,6 @@ Use non-fungible tokens as collateral to borrow DAI. Value of exact token should
 The Maker system provides various opportunities for profit which help to maintain market equilibrium. Strategies to arbitrage these opportunities can be codified as keepers - automated bots which can detect and trade inefficiencies across Dai Core, OasisDEX and various other exchanges.
 
 [Here](https://developer.makerdao.com/keepers/) you can read more currently exisitng keepers. Re-implement one of those in node.js using DAI.js!
+
+### Better visualisation tools for MAKER ecosystem
+Create tools that help exploring MAKER ecosystem. You might want to use [maker dashboard](https://dai.makerdao.com/) and [MKR Tools](https://mkr.tools/)) as inspiration.
