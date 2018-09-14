@@ -17,18 +17,18 @@
 *Saturday / 15.09.2018*
 
  
-09:00 - 10:00 - breakfast
-10:00 - 13:00 - work on projects
-13:00 - 14:00 - lunch break
+09:00 - 10:00 - breakfast<br/>
+10:00 - 13:00 - work on projects<br/>
+13:00 - 14:00 - lunch break<br/>
 14:00 - until you please - work on projects (we’ll provide you with food and beverages)
  
 
 *Sunday / 16.09.2018*
  
 
-10:00 - 11:00 - breakfast
-11:00 - 13:00 - work on projects - finishing touches
-13:40 - 14:20 - presentation of projects, voting, winners announcement & closing remarks
+10:00 - 11:00 - breakfast<br/>
+11:00 - 13:00 - work on projects - finishing touches<br/>
+13:40 - 14:20 - presentation of projects, voting, winners announcement & closing remarks<br/>
 14:30 - farewell
 
 
