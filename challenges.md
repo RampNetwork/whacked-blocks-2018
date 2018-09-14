@@ -62,6 +62,48 @@ It would be useful to have a contract that accepts all the ERC-20 and ERC-721 to
 # Contract designs
 ***
 
+## Decentralized Identity Verification
+**Context:**
+
+Trust is a Network. You trust those you know. Or those who are recommended by those you know. Or those who are verified (and can present proof) from an organization you know.
+![Trust Network](img/SL-trust-network.jpg)
+But in the decentralized world we often want to be able to handle things without big organizations. So how can you trust someone's identity?
+
+**Tech:**
+
+Design a prepare a program that verifies identities of people in a fully decentralized way. Addresses self declare their identity and other addresses that declared their identity can either confirm it or report it's fake (or got taken over). You can use any technology you like, even abstract the blockchain as two methods:
+
+```
+storeForever(Timestamp t, String smallData)
+
+Tiemstamp[] isRecorded(String smallData)
+```
+and the general network to
+```
+sendMessage(Address adr, String msg)
+broadcasMessage(String msg)
+
+String[] getMessages()  // for a given address
+```
+
+Two variants might be interesting usefull:
+
+1. A system that reports absolute trust in someones identity based on the network of confirmations (imagine each verification as an edge of the graph)
+
+1. A system that reports trust customized for your address based on the nodes you trust.
+
+**Bonus points**
+- If you are able to build a cool visualization of the trust network. For visaulization you can use anything from vis.js, graphviz, unity, up to Unreal Engine if that is not overkill for you.
+- If you are able to make your app interactive and allow an interactive attack simulation (maybe you can even make that into a game?)
+
+**Problems to consider**
+
+Design the system so it is resilient to an attacter that has a few trusted addresses under his/her controll (so he cannot easilly quickly go from a few to a few million).
+
+
+
+
+
 ## Probabilistic transaction settlement
 Context:
 - Blockchain-based systems tend to be final, with atomic transactions
