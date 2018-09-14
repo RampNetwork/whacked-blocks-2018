@@ -53,10 +53,10 @@ It would be useful to have a contract that accepts all the ERC-20 and ERC-721 to
 
 ## Probabilistic transaction settlement
 Scenario:
-Blockchain system - final, atomic transactions
-FIAT system - not final, possible partial transfer of funds
-probability p of transfer finality
-Underwriting fiat assets transactions
+ * Blockchain system - final, atomic transactions
+ * FIAT system - not final, possible partial transfer of funds
+ * probability p of transfer finality
+ * Underwriting fiat assets transactions
 
 # Oracles
 
@@ -64,20 +64,21 @@ Underwriting fiat assets transactions
 Use Open Banking (think bank database read/write access) to connect bank world with blockchain one.
 
 ### Use cases
-copy Tether system
-be your own Tether (Ceb - cebulion token network)
-build Ramp
-api wrapper smart contract <-> OBP - programming money
+ * copy Tether system
+ * be your own Tether (CEB - cebulion token network)
+ * build Ramp
+ * api wrapper smart contract <-> OBP - programming money
 
 ### Technical details
 
 Connect to OBP APIs and set up an oracle that gets data from https://openbankproject.com/
 You can use:
-Official OBP sandbox - https://apisandbox.openbankproject.com/
-Sandbox hosted by us at: 169.197.100.205:8080
-Local docker container - https://github.com/OpenBankProject/OBP-Docker (remember about configuration)
+ * Official OBP sandbox - https://apisandbox.openbankproject.com/
+ * Sandbox hosted by us at: 169.197.100.205:8080
+ * Local docker container - https://github.com/OpenBankProject/OBP-Docker (remember about configuration)
 
 OBP wiki: https://github.com/OpenBankProject/OBP-API/wiki/Sandbox
+
 You can use Direct Login: https://github.com/OpenBankProject/OBP-API/wiki/Direct-Login
 
 ## Official institutions’ data oraclised
@@ -86,15 +87,15 @@ There is abundance of rubbish data available, but interesting one, are semi-clos
 Fortunately we can have access to them through API created by NGOs.
 
 Create oracle publishing data to blockchain:
-KRS, NBP, GPW, polish institutions oracles - https://mojepanstwo.pl/api/krs
-Sejm - https://mojepanstwo.pl/api/sejmometr
-eu parliament votes
-other...
+ * KRS, NBP, GPW, polish institutions oracles - https://mojepanstwo.pl/api/krs
+ * Sejm - https://mojepanstwo.pl/api/sejmometr
+ * eu parliament votes
+ * other...
 
 Then, on top of that, create blockchain application using public data. Ideas:
-prediction market
-liquid democracy system (or other governance system) - imagine you can influence votes of one (or group of) MP - how you could ensure
-ICO
+ * prediction market
+ * liquid democracy system (or other governance system) - imagine you can influence votes of one (or group of) MP - how you could ensure
+ * ICO
 
 # Exchange
 ## Create NFT exchange / auction system
@@ -103,12 +104,12 @@ How to create exchange on illiquid, non fungible tokens with effective price dis
 How to implement effective order matching solution in this case?
 
 Possible angles:
-Use etherdelta system
-Reverse dutch auction - eg. you may use DutchX sourcecode
-Hybrid off/onchain system
-Generalise cryptokitties auction mechanism
-How to predict price of such asset - price feeds
-Data visualisation of real NFT auctions
+ * Use etherdelta system
+ * Reverse dutch auction - eg. you may use DutchX sourcecode
+ * Hybrid off/onchain system
+ * Generalise cryptokitties auction mechanism
+ * How to predict price of such asset - price feeds
+ * Data visualisation of real NFT auctions
 ...
 
 
