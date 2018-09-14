@@ -110,6 +110,6 @@ Possible angles:
  * Generalise cryptokitties auction mechanism
  * How to predict price of such asset - price feeds
  * Data visualisation of real NFT auctions
-...
+ * ...
 
 

@@ -5,34 +5,33 @@
 ## Timeline
 
 **Friday / 14.09.2018**
- 
+
 
 18:00 - 18:30 - registration, coffee<br/>
 18:30 - 19:15 - presentation of Whacked Blocks Challenges<br/>
 19:15 - 19:45 - forming teams & preparations<br/>
-19:45 - 21:15 - [optional] MakerDAO workshops - get your hands dirty with Dai.js      
+19:45 - 21:15 - [optional] MakerDAO workshops - get your hands dirty with Dai.js
 19:45 - until you please - work on projects
- 
+
 
 **Saturday / 15.09.2018**
 
- 
 09:00 - 10:00 - breakfast<br/>
 10:00 - 13:00 - work on projects<br/>
 13:00 - 14:00 - lunch break<br/>
 14:00 - until you please - work on projects (we’ll provide you with food and beverages)
- 
+
 
 **Sunday / 16.09.2018**
- 
 
 10:00 - 11:00 - breakfast<br/>
 11:00 - 13:00 - work on projects - finishing touches<br/>
 13:40 - 14:20 - presentation of projects, voting, winners announcement & closing remarks<br/>
 14:30 - farewell
 
-
 ## Challenges
+[here](./challenges.md)
+
 
 ## Mentors & Judges
 
