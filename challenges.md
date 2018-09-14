@@ -85,7 +85,7 @@ Context:
 Tech:
   - Dharma.js for accessing a line of credit in ETH
   - 0x protocol to exchange ETH for token needed by the user
-  - PISP integration [see XXX challenge to get some more info about PISPs] for automatic periodic repayment of the line of credit
+  - PISP integration [see Open Banking related challenge to get some more info about PISPs] for automatic periodic repayment of the line of credit
 
 Extra points:
   - How these unsecured personal loans should be granted and underwrited? Hint: you can pull borrower's' identity  and payment history using AISP.
