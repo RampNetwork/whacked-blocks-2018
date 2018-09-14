@@ -46,7 +46,7 @@ Meet our flavoured set of judges and mentors!
 
 ### Mentors
 
-<img src="https://static1.squarespace.com/static/5b86e2f8cc8fedee5576d563/t/5b8e8edb88251b17eb46a56c/1536069375733/Przemek+Kowalczyk.jpg" width="152" height="152"><br/>**Przemek Kowalczyk**<br/> #topic #topic #topic <br/><br/>
+<img src="https://static1.squarespace.com/static/5b86e2f8cc8fedee5576d563/t/5b8e8edb88251b17eb46a56c/1536069375733/Przemek+Kowalczyk.jpg" width="152" height="152"><br/>**Przemek Kowalczyk**<br/> #oracles #smartcontracts #cryptoEconomy <br/><br/>
 <img src="https://static1.squarespace.com/static/5b86e2f8cc8fedee5576d563/t/5b8a4d80cd8366d4a008fd3f/1535790466701/artur+kozak.jpg" width="152" height="152"><br/>**Artur Kozak**<br/> #backend #blockchain #solidity<br/><br/>
 <img src="https://static1.squarespace.com/static/5b86e2f8cc8fedee5576d563/t/5b8a4cbfaa4a99a4981e8ce7/1535790273309/piotr+roslaniec.jpg" width="152" height="152"><br/>**Piotr Rosłaniec**<br/> #webservices #oracles #solidity<br/><br/>
 <img src="https://static1.squarespace.com/static/5b86e2f8cc8fedee5576d563/t/5b8a4cd6b8a045c95ea06593/1535790295961/leonid+longvinov.jpg" width="152" height="152"><br/>**Leon Longvinov**<br/> #devtools #EthereumInternals #typescript<br/><br/>
