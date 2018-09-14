@@ -116,21 +116,21 @@ OBP wiki: https://github.com/OpenBankProject/OBP-API/wiki/Sandbox
 You can use Direct Login: https://github.com/OpenBankProject/OBP-API/wiki/Direct-Login
 ***
 
-## Official institutions’ data oraclised
-There is abundance of rubbish data available, but interesting one, are semi-closed in previous-era public digital systems.
+## Oraclize
 
-Fortunately we can have access to them through API created by NGOs.
+There is a wealth of data produced by public institutions. Oraclizing them could enable interesting and fun applications.
 
-Create oracle publishing data to blockchain:
- * KRS, NBP, GPW, polish institutions oracles - https://mojepanstwo.pl/api/krs
- * Sejm - https://mojepanstwo.pl/api/sejmometr
- * eu parliament votes
- * other...
+Create an oracle publishing data to blockchain. Some cool data feeds you might find interesting (there are some others, you can get creative):
+* KRS https://mojepanstwo.pl/api/krs
+* Sejm https://mojepanstwo.pl/api/sejmometr
+* NBP http://api.nbp.pl/en.html
 
 Then, on top of that, create blockchain application using public data. Ideas:
- * prediction market
- * liquid democracy system (or other governance system) - imagine you can influence votes of one (or group of) MP - how you could ensure
- * ICO
+* a prediction market
+* a DAO that maps shareholder breakdown of a given company
+* a tokenized politician?
+
+You may find Oraclize.it useful to prototype faster: http://docs.oraclize.it/#ethereum
 ***
 
 # Exchange
