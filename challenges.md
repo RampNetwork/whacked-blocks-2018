@@ -49,8 +49,7 @@ It would be useful to have a contract that accepts all the ERC-20 and ERC-721 to
 
 <!-- HINT: Look at gas usage  -->
 
-# Contract design
-## Probabilistic transaction settlement
+# Contract designs
 
 ## Probabilistic transaction settlement
 Context:
