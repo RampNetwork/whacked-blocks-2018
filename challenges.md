@@ -19,7 +19,7 @@ The Maker system provides various opportunities for profit which help to maintai
 [Here](https://developer.makerdao.com/keepers/) you can read more currently exisitng keepers. Re-implement one of those in node.js using DAI.js!
 
 ### Better visualisation tools for MAKER ecosystem
-Create tools that help exploring MAKER ecosystem. You might want to use [maker dashboard](https://dai.makerdao.com/) and [MKR Tools](https://mkr.tools/)) as inspiration.
+Create tools that help exploring MAKER ecosystem. You might want to use [maker dashboard](https://dai.makerdao.com/) and [MKR Tools](https://mkr.tools/) as inspiration.
 
 # Tokens
 
