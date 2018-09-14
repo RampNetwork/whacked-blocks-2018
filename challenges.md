@@ -55,7 +55,7 @@ Build a new token that is issued by an oracle based on specific criteria. Exampl
 There is a growing issue of trash tokens - the ones airdropped en masse, ones from failed ICOs, or past-their prime Cryptokittens.
 
 It would be useful to have a contract that accepts all the ERC-20 and ERC-721 tokens, and recycles them into some new kind of a token. For example, the user deposits 100 DAO, 500 AIRDRP, and four old CryptoKitties, and received 1000 RECYCLE tokens - just as useless, but so much neater! :)
-git
+
 HINT: Look at gas usage...
 ***
 
