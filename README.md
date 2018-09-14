@@ -8,7 +8,8 @@ For all time communication during Whacked Blocks Hackathon we have a telegram gr
 
 If you want to get back to the venue at night Friday or Saturday/Sunday and the door is closed please write to us (admins are orgs) on the telegram group and we will let you in.
 
-Beware! In order to take part in the Hackathon and win, your work has to be pulled to this repo in the solutions folder until 13:00 on Sunday. 
+Beware! In order to take part in the Hackathon and have a chance to win, create an issue in this repo with access data to your public repository project code and remember to do it before 13:00 on Sunday.
+
 
 ## Timeline
 
