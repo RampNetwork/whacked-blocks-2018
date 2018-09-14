@@ -46,17 +46,17 @@ There is a lot of data related to tokens and contracts floating around off-chain
 Right now, the majority of tokens are issued and distributed by on-chain mechanisms: auctions, airdrops, ICOs.
 
 Build a new token that is issued by an oracle based on specific criteria. Examples:
-An oracle/daemon that watches Wikipedia editor pages, and issues THANK-YOU tokens to all the editors that publish an ethereum address on their page
-An oracle/webserver that awaits an upload of an image, and if the image is uploaded, releases an ERC-721 token associated with it
-A simple web game that releases tokens as points in the game (this might require POA for cheaper transactions, and may tie in nicely with Hoard.Exchange)
+ * An oracle/daemon that watches Wikipedia editor pages, and issues THANK-YOU tokens to all the editors that publish an ethereum address on their page
+ * An oracle/webserver that awaits an upload of an image, and if the image is uploaded, releases an ERC-721 token associated with it
+ * A simple web game that releases tokens as points in the game (this might require POA for cheaper transactions, and may tie in nicely with Hoard.Exchange)
 ***
 
 ## Token recycler ;)
 There is a growing issue of trash tokens - the ones airdropped en masse, ones from failed ICOs, or past-their prime Cryptokittens.
 
 It would be useful to have a contract that accepts all the ERC-20 and ERC-721 tokens, and recycles them into some new kind of a token. For example, the user deposits 100 DAO, 500 AIRDRP, and four old CryptoKitties, and received 1000 RECYCLE tokens - just as useless, but so much neater! :)
-git
-HINT: Look at gas usage...
+
+<!--- (HINT: Make sure the token can't be abused. Maybe look at gas usage?) -->
 ***
 
 # Contract designs
@@ -158,21 +158,21 @@ OBP wiki: https://github.com/OpenBankProject/OBP-API/wiki/Sandbox
 You can use Direct Login: https://github.com/OpenBankProject/OBP-API/wiki/Direct-Login
 ***
 
-## Official institutions’ data oraclised
-There is abundance of rubbish data available, but interesting one, are semi-closed in previous-era public digital systems.
+## Oraclize
 
-Fortunately we can have access to them through API created by NGOs.
+There is a wealth of data produced by public institutions. Oraclizing them could enable interesting and fun applications.
 
-Create oracle publishing data to blockchain:
- * KRS, NBP, GPW, polish institutions oracles - https://mojepanstwo.pl/api/krs
- * Sejm - https://mojepanstwo.pl/api/sejmometr
- * eu parliament votes
- * other...
+Create an oracle publishing data to blockchain. Some cool data feeds you might find interesting (there are some others, you can get creative):
+* KRS https://mojepanstwo.pl/api/krs
+* Sejm https://mojepanstwo.pl/api/sejmometr
+* NBP http://api.nbp.pl/en.html
 
 Then, on top of that, create blockchain application using public data. Ideas:
- * prediction market
- * liquid democracy system (or other governance system) - imagine you can influence votes of one (or group of) MP - how you could ensure
- * ICO
+* a prediction market
+* a DAO that maps shareholder breakdown of a given company
+* a tokenized politician?
+
+You may find Oraclize.it useful to prototype faster: http://docs.oraclize.it/#ethereum
 ***
 
 # Exchange
