@@ -46,9 +46,9 @@ There is a lot of data related to tokens and contracts floating around off-chain
 Right now, the majority of tokens are issued and distributed by on-chain mechanisms: auctions, airdrops, ICOs.
 
 Build a new token that is issued by an oracle based on specific criteria. Examples:
-An oracle/daemon that watches Wikipedia editor pages, and issues THANK-YOU tokens to all the editors that publish an ethereum address on their page
-An oracle/webserver that awaits an upload of an image, and if the image is uploaded, releases an ERC-721 token associated with it
-A simple web game that releases tokens as points in the game (this might require POA for cheaper transactions, and may tie in nicely with Hoard.Exchange)
+ * An oracle/daemon that watches Wikipedia editor pages, and issues THANK-YOU tokens to all the editors that publish an ethereum address on their page
+ * An oracle/webserver that awaits an upload of an image, and if the image is uploaded, releases an ERC-721 token associated with it
+ * A simple web game that releases tokens as points in the game (this might require POA for cheaper transactions, and may tie in nicely with Hoard.Exchange)
 ***
 
 ## Token recycler ;)
