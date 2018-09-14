@@ -56,7 +56,7 @@ There is a growing issue of trash tokens - the ones airdropped en masse, ones fr
 
 It would be useful to have a contract that accepts all the ERC-20 and ERC-721 tokens, and recycles them into some new kind of a token. For example, the user deposits 100 DAO, 500 AIRDRP, and four old CryptoKitties, and received 1000 RECYCLE tokens - just as useless, but so much neater! :)
 
-HINT: Look at gas usage...
+<!--- (HINT: Make sure the token can't be abused. Maybe look at gas usage?) -->
 ***
 
 # Contract designs
