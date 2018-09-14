@@ -3,6 +3,7 @@
 ## General info
 
 For all time communication during Whacked Blocks Hackathon we have a telegram group, be sure to join:
+<img src="https://static1.squarespace.com/static/5b86e2f8cc8fedee5576d563/t/5b9bab3bc2241bee33fa4199/1536928572624/qr_code_whacked_blocks_chat.png" /> <br/>
 [https://t.me/joinchat/HJt_Ukq1Nip2Sr-teaosgA](https://t.me/joinchat/HJt_Ukq1Nip2Sr-teaosgA)
 
 If you want to get back to the venue at night Friday or Saturday/Sunday and the door is closed please write to us (admins are orgs) on the telegram group and we will let you in.
