@@ -5,6 +5,8 @@
 For all time communication during Whacked Blocks Hackathon we have a telegram group, be sure to join:
 [https://t.me/joinchat/HJt_Ukq1Nip2Sr-teaosgA](https://t.me/joinchat/HJt_Ukq1Nip2Sr-teaosgA)
 
+If you want to get back to the venue at night Friday or Saturday/Sunday and the door is closed please write to us (admins are orgs) on the telegram group and we will let you in.
+
 Beware! In order to take part in the Hackathon and win, your work has to be pulled to this repo in the solutions folder. 
 
 ## Timeline
