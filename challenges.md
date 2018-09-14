@@ -1,5 +1,4 @@
 # Dai.js
-
 [Maker for dummies](https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90)
 
 ## CDP pre-liquidator
@@ -20,7 +19,6 @@ The Maker system provides various opportunities for profit which help to maintai
 Create tools that help exploring MAKER ecosystem. You might want to use [maker dashboard](https://dai.makerdao.com/) and [MKR Tools](https://mkr.tools/)) as inspiration.
 
 # Tokens
-
 ## Implement one of the new ERC token standards
 While ERC20 and ERC721 are very well known, there are some other token standards that had little adoption so far:
 
@@ -46,11 +44,10 @@ A simple web game that releases tokens as points in the game (this might require
 There is a growing issue of trash tokens - the ones airdropped en masse, ones from failed ICOs, or past-their prime Cryptokittens.
 
 It would be useful to have a contract that accepts all the ERC-20 and ERC-721 tokens, and recycles them into some new kind of a token. For example, the user deposits 100 DAO, 500 AIRDRP, and four old CryptoKitties, and received 1000 RECYCLE tokens - just as useless, but so much neater! :)
-
-<!-- HINT: Look at gas usage  -->
+git
+HINT: Look at gas usage...
 
 # Contract designs
-
 ## Probabilistic transaction settlement
 Context:
   * Blockchain-based systems tend to be final, with atomic transactions
@@ -59,8 +56,6 @@ Context:
 1. Create smart contract which “randomly” (it can be a crude pseudo randomness) finalizes transactions.
 2. Create smart contract wrapper which allows to use such “not final” transaction token in 0x swaps.
 3. Use Dharma or other loan system to provide instant settlement for “standard blockchain system” side of transaction (you can use “started transaction token” as a collateral).
-
-
 
 ## Multicurrency ‘blockchain credit card’
 
