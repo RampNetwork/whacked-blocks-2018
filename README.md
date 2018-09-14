@@ -4,7 +4,7 @@
 
 ## Timeline
 
-*Friday / 14.09.2018*
+**Friday / 14.09.2018**
  
 
 18:00 - 18:30 - registration, coffee<br/>
@@ -14,7 +14,7 @@
 19:45 - until you please - work on projects
  
 
-*Saturday / 15.09.2018*
+**Saturday / 15.09.2018**
 
  
 09:00 - 10:00 - breakfast<br/>
@@ -23,7 +23,7 @@
 14:00 - until you please - work on projects (we’ll provide you with food and beverages)
  
 
-*Sunday / 16.09.2018*
+**Sunday / 16.09.2018**
  
 
 10:00 - 11:00 - breakfast<br/>
