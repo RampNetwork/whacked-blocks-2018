@@ -73,11 +73,12 @@ Use Open Banking (think bank database read/write access) to connect bank world w
 
 Connect to OBP APIs and set up an oracle that gets data from https://openbankproject.com/
 You can use:
-Official OBP sandbox - https://apisandbox.openbankproject.com/
-Sandbox hosted by us at: 169.197.100.205:8080
-Local docker container - https://github.com/OpenBankProject/OBP-Docker (remember about configuration)
+ * Official OBP sandbox - https://apisandbox.openbankproject.com/
+ * Sandbox hosted by us at: 169.197.100.205:8080
+ * Local docker container - https://github.com/OpenBankProject/OBP-Docker (remember about configuration)
 
 OBP wiki: https://github.com/OpenBankProject/OBP-API/wiki/Sandbox
+
 You can use Direct Login: https://github.com/OpenBankProject/OBP-API/wiki/Direct-Login
 
 ## Official institutions’ data oraclised
@@ -86,15 +87,15 @@ There is abundance of rubbish data available, but interesting one, are semi-clos
 Fortunately we can have access to them through API created by NGOs.
 
 Create oracle publishing data to blockchain:
-KRS, NBP, GPW, polish institutions oracles - https://mojepanstwo.pl/api/krs
-Sejm - https://mojepanstwo.pl/api/sejmometr
-eu parliament votes
-other...
+ * KRS, NBP, GPW, polish institutions oracles - https://mojepanstwo.pl/api/krs
+ * Sejm - https://mojepanstwo.pl/api/sejmometr
+ * eu parliament votes
+ * other...
 
 Then, on top of that, create blockchain application using public data. Ideas:
-prediction market
-liquid democracy system (or other governance system) - imagine you can influence votes of one (or group of) MP - how you could ensure
-ICO
+ * prediction market
+ * liquid democracy system (or other governance system) - imagine you can influence votes of one (or group of) MP - how you could ensure
+ * ICO
 
 # Exchange
 ## Create NFT exchange / auction system
