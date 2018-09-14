@@ -64,11 +64,14 @@ HINT: Look at gas usage...
 
 ## Probabilistic transaction settlement
 Context:
-  * Blockchain-based systems tend to be final, with atomic transactions
-  * in FIAT-based systems on the other hand, transactions are not final, possible partial transfer of funds
+- Blockchain-based systems tend to be final, with atomic transactions
+- in FIAT-based systems on the other hand, transactions are not final, possible partial transfer of funds
+- Such problems tend to be resolved by underwriting and credit scoring in the real world
+- You can also consider applying some mechanisms from payment protection insurances https://en.wikipedia.org/wiki/Payment_protection_insurance
 
-1. Create smart contract which “randomly” (it can be a crude pseudo randomness) finalizes transactions.
-2. Create smart contract wrapper which allows to use such “not final” transaction token in 0x swaps.
+Tech:
+1. Create smart contract which “randomly” (use a crude pseudo randomness) finalizes transactions
+2. Create smart contract wrapper which allows to use such “not final” transaction token in 0x swaps
 3. Use Dharma or other loan system to provide instant settlement for “standard blockchain system” side of transaction (you can use “started transaction token” as a collateral).
 ***
 
@@ -106,7 +109,6 @@ Use Open Banking (think bank database read/write access) to connect bank world w
 Connect to OBP APIs and set up an oracle that gets data from https://openbankproject.com/
 You can use:
  * Official OBP sandbox - https://apisandbox.openbankproject.com/
- * Sandbox hosted by us at: 169.197.100.205:8080
  * Local docker container - https://github.com/OpenBankProject/OBP-Docker (remember about configuration)
 
 OBP wiki: https://github.com/OpenBankProject/OBP-API/wiki/Sandbox
