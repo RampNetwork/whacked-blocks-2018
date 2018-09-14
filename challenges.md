@@ -1,4 +1,4 @@
-# Maker
+# Dai.js
 
 [Maker for dummies](https://medium.com/cryptolinks/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90)
 
@@ -50,13 +50,34 @@ It would be useful to have a contract that accepts all the ERC-20 and ERC-721 to
 <!-- HINT: Look at gas usage  -->
 
 # Contract design
+## Probabilistic transaction settlement
 
 ## Probabilistic transaction settlement
-Scenario:
- * Blockchain system - final, atomic transactions
- * FIAT system - not final, possible partial transfer of funds
- * probability p of transfer finality
- * Underwriting fiat assets transactions
+Context:
+  * Blockchain-based systems tend to be final, with atomic transactions
+  * in FIAT-based systems on the other hand, transactions are not final, possible partial transfer of funds
+
+1. Create smart contract which “randomly” (it can be a crude pseudo randomness) finalizes transactions.
+2. Create smart contract wrapper which allows to use such “not final” transaction token in 0x swaps.
+3. Use Dharma or other loan system to provide instant settlement for “standard blockchain system” side of transaction (you can use “started transaction token” as a collateral).
+
+
+
+## Multicurrency ‘blockchain credit card’
+
+Context:
+  - Work on a smart contract that would serve users with a blockchain credit card
+  - The contract should allow users to receive any token they wish to use as a line of credit
+  - This would largely increase convenience of using dApps without a need for purchasing and exchanging ETH and/or tokens each times they are needed to perform action in a dApp.
+
+Tech:
+  - Dharma.js for accessing a line of credit in ETH
+  - 0x protocol to exchange ETH for token needed by the user
+  - PISP integration [see XXX challenge to get some more info about PISPs] for automatic periodic repayment of the line of credit
+
+Extra points:
+  - How these unsecured personal loans should be granted and underwrited? Hint: you can pull borrower's' identity  and payment history using AISP.
+
 
 # Oracles
 
@@ -64,10 +85,10 @@ Scenario:
 Use Open Banking (think bank database read/write access) to connect bank world with blockchain one.
 
 ### Use cases
- * copy Tether system
- * be your own Tether (CEB - cebulion token network)
- * build Ramp
- * api wrapper smart contract <-> OBP - programming money
+ * copy Tether system (but pls make it auditable, k?)
+ * Issue you own stable coin using funds stored in your private bank account ($CEB - cebulion token network)
+ * api wrapper smart contract <-> OBP - programmatic money
+ * Blockchain credit card [see previous challenge]
 
 ### Technical details
 
