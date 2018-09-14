@@ -7,10 +7,11 @@
 *Friday / 14.09.2018*
  
 
-18:00 - 18:30 - registration, coffee
-18:30 - 19:15 - presentation of Whacked Blocks Challenges
-19:15 - 19:45 - forming teams & preparations
-19:45 - 21:15 - [optional] MakerDAO workshops - get your hands dirty with Dai.js                    19:45 - until you please - work on projects
+18:00 - 18:30 - registration, coffee<br/>
+18:30 - 19:15 - presentation of Whacked Blocks Challenges<br/>
+19:15 - 19:45 - forming teams & preparations<br/>
+19:45 - 21:15 - [optional] MakerDAO workshops - get your hands dirty with Dai.js<br/>        
+19:45 - until you please - work on projects
  
 
 *Saturday / 15.09.2018*
