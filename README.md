@@ -39,8 +39,8 @@ Beware! In order to take part in the Hackathon and have a chance to win, create 
 14:30 - farewell
 
 ## Challenges
-[here](./challenges.md)
-
+[here](./challenges.md)  
+[pres](https://www.swipe.to/4991hx?p=lWVWSXdSK)
 
 ## Mentors & Judges
 
